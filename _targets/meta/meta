@@ -1,0 +1,15 @@
+name|type|data|command|depend|seed|path|time|size|bytes|format|repository|iteration|parent|children|seconds|warnings|error
+raw_results_file|stem|7bb0aba89cf24406|b7dfe7c46f344a31|2c530c1562a7fbd1|-333252154|/home/nicolas/workspace/olympics/data-raw/results.csv|t20501.6428867459s|s33043578b|33043578|file|local|vector|||1.464||
+raw_results|stem|b3a3f9d4043a0dfd|394f49e9c9c959d2|e8f83b7b1d4d171b|-54854071||t20501.6476706193s|s3469323b|3469323|rds|local|vector|||0.792||
+youth_games|stem|a21787999a515057|571682e132535532|1d128a97b3ee6ff4|-1382261426||t20501.6476844156s|s184b|184|rds|local|vector|||0.131||
+results|stem|6a3730d439d73f44|c4711a5698e4639f|41b0654bd029c6ea|-322906963||t20501.6526975185s|s3378619b|3378619|rds|local|vector|||0.64||
+medals|stem|322e7232f2e65fae|93cbb23df5310e7c|fcb961f129b05f2d|1144540361||t20501.6527103078s|s98755b|98755|rds|local|vector|||0.013||
+medals_file|stem|c54ccdf284e38015|33e082a48b8f0b6a|81d515deee2e5c85|1597149665|/home/nicolas/workspace/olympics/data/medals.csv|t20501.6676443068s|s1465639b|1465639|file|local|vector|||0.133||
+bios_file_url|stem|a48eb67092f35d56|3c46cafdcaa24fe9|2c530c1562a7fbd1|1645017448|https://raw.githubusercontent.com/KeithGalli/Olympics-Dataset/refs/heads/master/clean-data/bios.csv|t20501.6792366448s||0|url|local|vector|||1.473||
+olympic_success|stem|5895565d988b0f18|79fab66191cb0cc2|81d515deee2e5c85|-1895682622|document/olympic_success.html*document/olympic_success.qmd|t20501.6793890331s|s21031b|21031|file|local|vector|||11.25||
+bios_file|stem|a968615aa8e23919|8c37b376d60495e5|7d1e84d0a908905f|907751468|/home/nicolas/workspace/olympics/data-raw/bios.csv|t20501.6819766894s|s10838929b|10838929|file|local|vector|||0.619||
+get_results|function|1ff819a72cd7382d
+get_medals|function|83e51b7e1373642c
+.Random.seed|object|c9d2a30a7d2e2b11
+get_youth_games|function|c15fede26274ef41
+bios|stem|83ef50be4c6ecdd0|c2d63c5985605417|0769ec8da7b83b5d|1799200891||t20501.6828549089s|s3749636b|3749636|rds|local|vector|||0.411||

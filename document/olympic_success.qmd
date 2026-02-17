@@ -7,10 +7,10 @@ format: html
 #| include: false
 library(tidyverse)
 library(here)
+library(targets)
 
 medal_counts <-
-  here("data", "medals.csv") |>
-  read_csv() |>
+  tar_read(medals) |>
   count(noc, type) |>
   pivot_wider(names_from = type, values_from = n, values_fill = 0)
 
